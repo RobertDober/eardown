@@ -1,5 +1,11 @@
 # Eardown
 
+
+[![CI](https://github.com/robertdober/eardown/actions/workflows/elixir.yml/badge.svg)](https://github.com/robertdober/eardown/actions/workflows/elixir.yml)
+[![Coverage Status](https://coveralls.io/repos/github/RobertDober/eardown/badge.svg?branch=master)](https://coveralls.io/github/RobertDober/eardown?branch=master)
+[![Hex.pm](https://img.shields.io/hexpm/v/eardown.svg)](https://hex.pm/packages/eardown)
+[![Hex.pm](https://img.shields.io/hexpm/dw/eardown.svg)](https://hex.pm/packages/eardown)
+[![Hex.pm](https://img.shields.io/hexpm/dt/eardown.svg)](https://hex.pm/packages/eardown)
 Eardown is a Markdown Parser with a non line based parsing approach. It is meant to be EarmarkParser v2.
 
 ## Synopsis
