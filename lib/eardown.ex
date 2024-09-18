@@ -1,18 +1,18 @@
 defmodule Eardown do
+  use __MODULE__.Types
+  alias __MODULE__.Options
+
   @moduledoc """
-  Documentation for `Eardown`.
+  A Peg Parser for Markdown (GFM)
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Eardown.hello()
-      :world
-
+  @doc ~S"""
+  Parses a markdown document passed in as a _single_ string, according to `options`
   """
-  def hello do
-    :world
+  @spec parse(binary(), Options.t()) :: result_t()
+  def parse(string, options \\ %Options{}) do
+    {:ok, [], []}
   end
 end
+
+# SPDX-License-Identifier: Apache-2.0
